@@ -3,6 +3,8 @@ Microservicio del Reto Intercorp
 
 Es necesario instalar una BD MYSQL, con nombre:db_springboot_backend.
 
+Por defecto, la tabla clientes se carga de datos usando el archivo: import.sql.
+
 Se asume que cada cliente tiene un tiempo de vida aproximada de 75 años.
 
 Al crear un cliente, la fecha de muerte se le asigna automáticamente en base a su fecha de nacimiento; por ello se le añade 75 años.
