@@ -18,3 +18,7 @@ http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/ap
 
 El endpoint para determinar la desviación estandard de los clientes es: 
 http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/api/kpistd
+
+
+Swagger:
+http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/swagger-ui.html
