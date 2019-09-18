@@ -19,6 +19,18 @@ http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/ap
 El endpoint para determinar la desviación estandard de los clientes es: 
 http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/api/kpistd
 
+El endpoint para crear nuevos clientes:
+http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/api/clientes
+
+Ejemplo en el body:
+
+{
+"nombre": "Juan",
+"apellido": "Perez",
+"edad": 39,
+"fechaNa": "1980-01-21"
+}
+
 
 Swagger:
 http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/swagger-ui.html
