@@ -10,10 +10,11 @@ Se asume que cada cliente tiene un tiempo de vida aproximada de 75 años.
 Al crear un cliente, la fecha de muerte se le asigna automáticamente en base a su fecha de nacimiento; por ello se le añade 75 años.
 
 El endpoint de todos los clientes incluyendo la fecha probable de muerte es:
-http://localhost:8080/clientes
+
+http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/api/clientes
 
 El endpoint para determinar la edad promedio de los clientes es: 
-http://localhost:8080/clientes/kpiaverage
+http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/api/kpiaverage
 
 El endpoint para determinar la desviación estandard de los clientes es: 
-http://localhost:8080/clientes/kpistd
+http://springbootintercorp-env.uvbwmc7v85.us-east-2.elasticbeanstalk.com:8090/api/kpistd
